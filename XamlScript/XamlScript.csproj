@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A06C04E8-AA64-45B4-B69A-6038F99767B5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>XamlScript</RootNamespace>
+    <AssemblyName>XamlScript</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Engine\Clearscript\BindSignature.cs" />
+    <Compile Include="Engine\Clearscript\ByRefArg.cs" />
+    <Compile Include="Engine\Clearscript\ContinuationCallback.cs" />
+    <Compile Include="Engine\Clearscript\DelegateFactory.cs" />
+    <Compile Include="Engine\Clearscript\DelegateFactory.Generated.cs" />
+    <Compile Include="Engine\Clearscript\ExtensionMethods.cs" />
+    <Compile Include="Engine\Clearscript\HostEvent.cs" />
+    <Compile Include="Engine\Clearscript\HostFunctions.cs" />
+    <Compile Include="Engine\Clearscript\HostIndexedProperty.cs" />
+    <Compile Include="Engine\Clearscript\HostItem.cs" />
+    <Compile Include="Engine\Clearscript\HostItem.InvokeMethod.cs" />
+    <Compile Include="Engine\Clearscript\HostItem.Members.cs" />
+    <Compile Include="Engine\Clearscript\HostItemFlags.cs" />
+    <Compile Include="Engine\Clearscript\HostMethod.cs" />
+    <Compile Include="Engine\Clearscript\HostObject.cs" />
+    <Compile Include="Engine\Clearscript\HostTarget.cs" />
+    <Compile Include="Engine\Clearscript\HostTargetFlags.cs" />
+    <Compile Include="Engine\Clearscript\HostType.cs" />
+    <Compile Include="Engine\Clearscript\HostTypeCollection.cs" />
+    <Compile Include="Engine\Clearscript\HostVariable.cs" />
+    <Compile Include="Engine\Clearscript\IScriptableObject.cs" />
+    <Compile Include="Engine\Clearscript\IScriptEngineException.cs" />
+    <Compile Include="Engine\Clearscript\NoScriptAccessAttribute.cs" />
+    <Compile Include="Engine\Clearscript\PropertyBag.cs" />
+    <Compile Include="Engine\Clearscript\ScriptAccess.cs" />
+    <Compile Include="Engine\Clearscript\ScriptEngine.cs" />
+    <Compile Include="Engine\Clearscript\ScriptEngineException.cs" />
+    <Compile Include="Engine\Clearscript\ScriptInterruptedException.cs" />
+    <Compile Include="Engine\Clearscript\ScriptItem.cs" />
+    <Compile Include="Engine\Clearscript\ScriptMemberAttribute.cs" />
+    <Compile Include="Engine\Clearscript\ScriptMemberFlags.cs" />
+    <Compile Include="Engine\Clearscript\ScriptMethod.cs" />
+    <Compile Include="Engine\Clearscript\ScriptUsageAttribute.cs" />
+    <Compile Include="Engine\Clearscript\Undefined.cs" />
+    <Compile Include="Engine\Clearscript\Util\ArrayHelpers.cs" />
+    <Compile Include="Engine\Clearscript\Util\AssemblyHelpers.cs" />
+    <Compile Include="Engine\Clearscript\Util\ConcurrentWeakSet.cs" />
+    <Compile Include="Engine\Clearscript\Util\DynamicHelpers.cs" />
+    <Compile Include="Engine\Clearscript\Util\EnumerableHelpers.cs" />
+    <Compile Include="Engine\Clearscript\Util\IDynamic.cs" />
+    <Compile Include="Engine\Clearscript\Util\InvokeHelpers.cs" />
+    <Compile Include="Engine\Clearscript\Util\IScriptMarshalWrapper.cs" />
+    <Compile Include="Engine\Clearscript\Util\MemberHelpers.cs" />
+    <Compile Include="Engine\Clearscript\Util\MiscHelpers.cs" />
+    <Compile Include="Engine\Clearscript\Util\Nonexistent.cs" />
+    <Compile Include="Engine\Clearscript\Util\ObjectHelpers.cs" />
+    <Compile Include="Engine\Clearscript\Util\RawCOMHelpers.cs" />
+    <Compile Include="Engine\Clearscript\Util\SpecialMemberNames.cs" />
+    <Compile Include="Engine\Clearscript\Util\SpecialParamNames.cs" />
+    <Compile Include="Engine\Clearscript\Util\TypeHelpers.cs" />
+    <Compile Include="Engine\Clearscript\Util\UniqueNameManager.cs" />
+    <Compile Include="Engine\Clearscript\VoidResult.cs" />
+    <Compile Include="Engine\Clearscript\Windows\ActiveXDebugging.cs" />
+    <Compile Include="Engine\Clearscript\Windows\ActiveXScripting.cs" />
+    <Compile Include="Engine\Clearscript\Windows\ActiveXWrappers.cs" />
+    <Compile Include="Engine\Clearscript\Windows\WindowsScriptEngine.cs" />
+    <Compile Include="Engine\Clearscript\Windows\WindowsScriptEngine.Debug.cs" />
+    <Compile Include="Engine\Clearscript\Windows\WindowsScriptEngine.Site.cs" />
+    <Compile Include="Engine\Clearscript\Windows\WindowsScriptEngineFlags.cs" />
+    <Compile Include="Engine\Clearscript\Windows\WindowsScriptItem.cs" />
+    <Compile Include="Engine\JScriptEngine.cs" />
+    <Compile Include="Engine\VBScriptEngine.cs" />
+    <Compile Include="FunctionMarkupExtension.cs" />
+    <Compile Include="Javascript.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Script.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

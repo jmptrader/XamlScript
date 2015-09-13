@@ -1,0 +1,16 @@
+c:\users\filmee24\documents\visual studio 2015\Projects\XamlScript\Test\bin\Debug\Test.exe.config
+c:\users\filmee24\documents\visual studio 2015\Projects\XamlScript\Test\bin\Debug\Test.exe
+c:\users\filmee24\documents\visual studio 2015\Projects\XamlScript\Test\bin\Debug\Test.pdb
+c:\users\filmee24\documents\visual studio 2015\Projects\XamlScript\Test\bin\Debug\XamlScript.dll
+c:\users\filmee24\documents\visual studio 2015\Projects\XamlScript\Test\bin\Debug\XamlScript.pdb
+c:\users\filmee24\documents\visual studio 2015\Projects\XamlScript\Test\obj\Debug\Test.csprojResolveAssemblyReference.cache
+c:\users\filmee24\documents\visual studio 2015\Projects\XamlScript\Test\obj\Debug\MainWindow.g.cs
+c:\users\filmee24\documents\visual studio 2015\Projects\XamlScript\Test\obj\Debug\App.g.cs
+c:\users\filmee24\documents\visual studio 2015\Projects\XamlScript\Test\obj\Debug\Test_MarkupCompile.cache
+c:\users\filmee24\documents\visual studio 2015\Projects\XamlScript\Test\obj\Debug\Test_MarkupCompile.lref
+c:\users\filmee24\documents\visual studio 2015\Projects\XamlScript\Test\obj\Debug\MainWindow.baml
+c:\users\filmee24\documents\visual studio 2015\Projects\XamlScript\Test\obj\Debug\Test.g.resources
+c:\users\filmee24\documents\visual studio 2015\Projects\XamlScript\Test\obj\Debug\Test.Properties.Resources.resources
+c:\users\filmee24\documents\visual studio 2015\Projects\XamlScript\Test\obj\Debug\Test.csproj.GenerateResource.Cache
+c:\users\filmee24\documents\visual studio 2015\Projects\XamlScript\Test\obj\Debug\Test.exe
+c:\users\filmee24\documents\visual studio 2015\Projects\XamlScript\Test\obj\Debug\Test.pdb
