@@ -9,13 +9,23 @@
         Title="MainWindow" Height="350" Width="525">
     <Window.Resources>
         <xs:Script x:Key="test">
+            <![CDATA[
             function onClick(s, e) {
                 alert("test");
             }
+            
+            parent.Loaded.connect(function() {
+            
+            var q = query.Search("Button");
+            for(int x = 0; x < q.Length; x++) {
+                 alert(q[x]);              
+            }
+            });
+            ]]>
         </xs:Script>
     </Window.Resources>
 
-    <Grid>
-        <Button xs:Javascript.Script="{DynamicResource test}" Content="click me" Click="{xs:Function onClick}" />
+    <Grid xs:JavaScript.Script="{DynamicResource test}">
+        <Button Content="click me" />
     </Grid>
 </Window>

@@ -25,7 +25,7 @@ namespace XamlScript
             var s = serviceProvider.GetService(typeof(IProvideValueTarget)) as IProvideValueTarget;
             var e = s.TargetProperty as EventInfo;
 
-            return new RoutedEventHandler((se, ea) => Javascript._engine.Script[Name](se, ea));
+            return new RoutedEventHandler((se, ea) => JavaScript._engine.Script[Name](se, ea));
         }
     }
 }

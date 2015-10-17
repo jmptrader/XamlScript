@@ -14,3 +14,19 @@ c:\users\filmee24\documents\visual studio 2015\Projects\XamlScript\Test\obj\Debu
 c:\users\filmee24\documents\visual studio 2015\Projects\XamlScript\Test\obj\Debug\Test.csproj.GenerateResource.Cache
 c:\users\filmee24\documents\visual studio 2015\Projects\XamlScript\Test\obj\Debug\Test.exe
 c:\users\filmee24\documents\visual studio 2015\Projects\XamlScript\Test\obj\Debug\Test.pdb
+C:\Users\filmee24\Documents\GitHub\XamlScript\Test\bin\Debug\Test.exe.config
+C:\Users\filmee24\Documents\GitHub\XamlScript\Test\obj\Debug\Test.exe
+C:\Users\filmee24\Documents\GitHub\XamlScript\Test\obj\Debug\Test.pdb
+C:\Users\filmee24\Documents\GitHub\XamlScript\Test\bin\Debug\Test.exe
+C:\Users\filmee24\Documents\GitHub\XamlScript\Test\bin\Debug\Test.pdb
+C:\Users\filmee24\Documents\GitHub\XamlScript\Test\bin\Debug\XamlScript.dll
+C:\Users\filmee24\Documents\GitHub\XamlScript\Test\bin\Debug\XamlScript.pdb
+C:\Users\filmee24\Documents\GitHub\XamlScript\Test\obj\Debug\Test.csprojResolveAssemblyReference.cache
+C:\Users\filmee24\Documents\GitHub\XamlScript\Test\obj\Debug\MainWindow.g.cs
+C:\Users\filmee24\Documents\GitHub\XamlScript\Test\obj\Debug\App.g.cs
+C:\Users\filmee24\Documents\GitHub\XamlScript\Test\obj\Debug\Test_MarkupCompile.cache
+C:\Users\filmee24\Documents\GitHub\XamlScript\Test\obj\Debug\Test_MarkupCompile.lref
+C:\Users\filmee24\Documents\GitHub\XamlScript\Test\obj\Debug\MainWindow.baml
+C:\Users\filmee24\Documents\GitHub\XamlScript\Test\obj\Debug\Test.g.resources
+C:\Users\filmee24\Documents\GitHub\XamlScript\Test\obj\Debug\Test.Properties.Resources.resources
+C:\Users\filmee24\Documents\GitHub\XamlScript\Test\obj\Debug\Test.csproj.GenerateResource.Cache

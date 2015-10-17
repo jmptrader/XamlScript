@@ -1,4 +1,5 @@
-﻿using System.Windows.Markup;
+﻿using System.ComponentModel;
+using System.Windows.Markup;
 
 namespace XamlScript
 {
@@ -7,5 +8,8 @@ namespace XamlScript
     {
         public string Source { get; set; }
 
+        [DefaultValue(ScriptType.JavaScript)]
+        public ScriptType Type { get; set; }
     }
+    public enum ScriptType { JavaScript, VBScript }
 }

@@ -107,7 +107,23 @@
     <Compile Include="Engine\JScriptEngine.cs" />
     <Compile Include="Engine\VBScriptEngine.cs" />
     <Compile Include="FunctionMarkupExtension.cs" />
-    <Compile Include="Javascript.cs" />
+    <Compile Include="Query\ChildrenFinder.cs" />
+    <Compile Include="Query\Common.cs" />
+    <Compile Include="Query\ControlSet.cs" />
+    <Compile Include="Query\Enumerations.cs" />
+    <Compile Include="Query\Store.cs" />
+    <Compile Include="Query\StyleParser.cs" />
+    <Compile Include="Query\XamlQuery.cs" />
+    <Compile Include="Query\XamlSelector\Combinator.cs" />
+    <Compile Include="Query\XamlSelector\ControlUtility.cs" />
+    <Compile Include="Query\XamlSelector\Enumerations.cs" />
+    <Compile Include="Query\XamlSelector\FilterSelector.cs" />
+    <Compile Include="Query\XamlSelector\Parser.cs" />
+    <Compile Include="Query\XamlSelector\Selector.cs" />
+    <Compile Include="Query\XamlSelector\SimpleSelector.cs" />
+    <Compile Include="Query\XamlSelector\Token.cs" />
+    <Compile Include="VBScript.cs" />
+    <Compile Include="JavaScript.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Script.cs" />
   </ItemGroup>

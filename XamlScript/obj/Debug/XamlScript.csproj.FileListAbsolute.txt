@@ -2,3 +2,7 @@ c:\users\filmee24\documents\visual studio 2015\Projects\XamlScript\XamlScript\bi
 c:\users\filmee24\documents\visual studio 2015\Projects\XamlScript\XamlScript\bin\Debug\XamlScript.pdb
 c:\users\filmee24\documents\visual studio 2015\Projects\XamlScript\XamlScript\obj\Debug\XamlScript.dll
 c:\users\filmee24\documents\visual studio 2015\Projects\XamlScript\XamlScript\obj\Debug\XamlScript.pdb
+C:\Users\filmee24\Documents\GitHub\XamlScript\XamlScript\bin\Debug\XamlScript.dll
+C:\Users\filmee24\Documents\GitHub\XamlScript\XamlScript\bin\Debug\XamlScript.pdb
+C:\Users\filmee24\Documents\GitHub\XamlScript\XamlScript\obj\Debug\XamlScript.dll
+C:\Users\filmee24\Documents\GitHub\XamlScript\XamlScript\obj\Debug\XamlScript.pdb

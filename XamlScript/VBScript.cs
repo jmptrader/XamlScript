@@ -1,6 +1,5 @@
 ﻿using Microsoft.ClearScript;
 using System;
-using System.Reflection;
 using System.Windows;
 using System.Windows.Markup;
 
@@ -9,31 +8,24 @@ using System.Windows.Markup;
 
 namespace XamlScript
 {
-    public class JavaScript : FrameworkElement
+    public class VBScript : FrameworkElement
     {
         public static readonly DependencyProperty ScriptProperty =
             DependencyProperty.RegisterAttached("Script",
             typeof(Script), typeof(JavaScript), new PropertyMetadata
             (new PropertyChangedCallback(ScriptChanged)));
 
-        public static JScriptEngine _engine = new JScriptEngine();
+        public static VBScriptEngine _engine = new VBScriptEngine();
 
-        static JavaScript()
+        static VBScript()
         {
             _engine.Add("host", new ExtendedHostFunctions());
 
             _engine.Add("alert", new Action<string>((msg) => MessageBox.Show(msg)));
-            _engine.Add("query", typeof(XamlQuery.XamlQuery));
-
-            foreach (var item in Assembly.GetEntryAssembly().GetTypes())
-            {
-                _engine.Add(item.Name, item);
-            }
         }
 
         private static void ScriptChanged(DependencyObject d, DependencyPropertyChangedEventArgs e)
         {
-            _engine.Add("parent", d);
             _engine.Execute(((Script)e.NewValue).Source);
         }
 

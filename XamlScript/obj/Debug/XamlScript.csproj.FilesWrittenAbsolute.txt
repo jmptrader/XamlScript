@@ -1,0 +1,2 @@
+C:\Users\filmee24\Documents\GitHub\XamlScript\XamlScript\obj\Debug\.NETFramework,Version=v4.5.AssemblyAttribute.cs
+C:\Users\filmee24\Documents\GitHub\XamlScript\XamlScript\obj\Debug\XamlScript.dll
